@@ -1,0 +1,27 @@
+# Secrets / local config
+backend/.env
+.env
+*.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Runtime data / uploads (not source)
+backend/src/uploads/
+backend/src/test.db
+
+# Virtualenv
+venv/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# OS / editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
